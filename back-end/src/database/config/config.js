@@ -33,5 +33,6 @@ module.exports = {
   },
   production: {
     ...options,
+    use_env_variable: 'DATABASE_URL'
   },
 };
