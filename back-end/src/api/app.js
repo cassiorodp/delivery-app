@@ -5,7 +5,7 @@ const path = require('path');
 const http = require('http').createServer(app);
 const io = require('socket.io')(http, {
   cors: {
-    origin: 'http://localhost:3000',
+    origins: ['http://localhost:3000', 'https://jose-delivery-app.vercel.app'],
     methods: ['GET'],
   },
 });
