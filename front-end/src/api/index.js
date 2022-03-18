@@ -3,7 +3,6 @@ import axios from 'axios';
 require('dotenv').config();
 
 const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
-console.log('process.env.REACT_APP_API_URL', process.env.REACT_APP_API_URL);
 
 export const getAllOrders = async () => {
   const { token } = JSON.parse(localStorage.getItem('user'));
