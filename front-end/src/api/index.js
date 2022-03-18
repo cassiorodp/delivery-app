@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 const BASE_URL = process.env.API_URL || 'http://localhost:3001';
-console.log('🚀 ~ file: index.js ~ line 6 ~ API_URL', API_URL);
 
 export const getAllOrders = async () => {
   const { token } = JSON.parse(localStorage.getItem('user'));
