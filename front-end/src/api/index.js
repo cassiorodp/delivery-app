@@ -1,6 +1,7 @@
+require('dotenv').config();
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3001';
+const BASE_URL = process.env.API_URL || 'http://localhost:3001';
 
 export const getAllOrders = async () => {
   const { token } = JSON.parse(localStorage.getItem('user'));
