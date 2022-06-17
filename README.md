@@ -165,5 +165,4 @@ Feel free to add any contribution on our app! Here is some instructions:
 
 ---
 
-[Find your favorite pokemon here!](https://cassiorodp.github.io/pokemon-world/)
 We are open for feedbacks.
